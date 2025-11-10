@@ -1,0 +1,160 @@
+
+>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Munendr Yadav Digital Marketing Institute</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to right, #f9f9f9, #eef2f3);
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 25px 10px;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 26px;
+      color: #111;
+    }
+content://com.android.externalstorage.documents/tree/primary%3AMUNENDR%20yadav%20::primary:MUNENDR yadav /Digital/Index.html
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      gap: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: 0.3s ease;
+      display: inline-block;
+    }
+
+    .facebook { background-color: #3b5998; }
+    .facebook:hover { background-color: #2d4373; }
+
+    .instagram { background-color: #E1306C; }
+    .instagram:hover { background-color: #C13584; }
+
+    .whatsapp { background-color: #25D366; }
+    .whatsapp:hover { background-color: #128C7E; }
+
+    .youtube { background-color: #FF0000; }
+    .youtube:hover { background-color: #CC0000; }
+
+    .contact-section {
+      margin-top: 40px;
+      background: white;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 25px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    button {
+      background-color: #111;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 25px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #444;
+    }
+
+    #response-message {
+      margin-top: 15px;
+      color: green;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 50px;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    © 2025 Munendr Yadav Digital Marketing Institute
+  </header>
+
+  <h2>मुझसे जुड़ें</h2>
+
+  <div class="social-links">
+    <a href="https://www.facebook.com/" target="_blank" class="facebook">Facebook</a>
+    <a href="https://www.instagram.com/digitalmunendr" target="_blank" class="instagram">Instagram</a>
+    <a href="https://call.whatsapp.com/video/3LO1bj2783PD3" target="_blank" class="whatsapp">WhatsApp</a>
+    <a href="https://youtube.com/@munendr1963?si=DmDwBPuReth7QJo" target="_blank" class="youtube">YouTube</a>
+  </div>
+
+  <div class="contact-section">
+    <h3>संपर्क करें</h3>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" id="name" placeholder="आपका नाम" required /><br />
+      <input type="email" id="email" placeholder="आपका ईमेल" required /><br />
+      <textarea id="message" rows="4" placeholder="आपका संदेश"></textarea><br />
+      <button type="submit">संदेश भेजें</button>
+    </form>
+    <p id="response-message"></p>
+  </div>
+
+  <footer>
+    Munendr Yadav Digital Marketing Institute — डिजिटल मार्केटिंग सीखें और आगे बढ़ें
+  </footer>
+
+  <script>
+    function sendMessage(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      document.getElementById("response-message").innerText =
+        `धन्यवाद ${name}! आपका संदेश सफलतापूर्वक भेज दिया गया है।`;
+
+      document.querySelector("form").reset();
+    }
+  </script>
+</body>
+</html>
+script.js
+style.css
